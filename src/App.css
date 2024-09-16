@@ -1,0 +1,185 @@
+body {
+  background-color: black;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  font-size: 5rem;
+  color: tomato;
+  border-bottom: 1px solid black;
+}
+
+p {
+  font-size: 2rem;
+  color: darkorange;
+}
+
+button {
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: dodgerblue;
+  color: seashell;
+  border: none;
+}
+
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed,
+	figure, figcaption, footer, header, hgroup,
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+	  margin: 0;
+	  padding: 0;
+	  border: 0;
+	  font: inherit;
+	  font-size: 100%;
+	  vertical-align: baseline;
+	}
+	html {
+	  line-height: 1;
+	}
+	ol, ul {
+	  list-style: none;
+	}
+	table {
+	  border-collapse: collapse;
+	  border-spacing: 0;
+	}
+	caption, th, td {
+	  text-align: left;
+	  font-weight: normal;
+	  vertical-align: middle;
+	}
+	q, blockquote {
+	  quotes: none;
+	}
+	q:before, q:after, blockquote:before, blockquote:after {
+	  content: "";
+	  content: none;
+	}
+	a img {
+	  border: none;
+	}
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+	  display: block;
+	}
+	body {
+	font-family: "Courier New", monospace;
+	text-align: center;
+	font-size: 1em;
+	vertical-align: middle;
+  }
+  
+	.paper {
+	background-color: white;
+	margin: 50px auto;
+	width: 384px;
+  }
+  
+	.paper .padder {
+	padding: 2.5em 0em 2.5em 0em;
+  }
+  
+	.paper h3 {
+	font-size: 1.750em;
+	font-weight: normal;
+	color: #121212;
+  }
+  
+	.paper p {
+	font-size: 1.5em;
+	padding: 1.2em 0 1.2em 0;
+	color: #121212;
+  }
+  
+	.paper .advice {
+	overflow: hidden;
+  }
+  
+	.paper .advice:after, .paper .advice:before {
+	content: "=====================================";
+	font-family: "Courier New", monospace;
+	font-size: 1em;
+	text-align: center;
+	text-justify: distribute !important;
+	display: inline-block;
+  }
+  
+	.paper .advice:before {
+	padding: 0 0 2.2em 0;
+  }
+  
+	.paper .advice:after {
+	padding: 2.2em 0 0 0;
+  }
+  
+	.paper p.datetime {
+	width: 90%;
+	font-size: 1em;
+	display: inline-block;
+	text-align: left;
+	overflow: hidden;
+  padding: 0;
+  margin: auto 10px;
+  }
+  
+	.paper p.datetime .time {
+  float: right;
+  }
+  
+	.paper .tweet {
+	display: none;
+  }
+  
+	.paper .padder:after {
+	content: "";
+	display: inline-block;
+	overflow: hidden;
+	}
